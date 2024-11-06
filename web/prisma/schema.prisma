@@ -17,3 +17,9 @@ model Session {
   accessToken String
   userId      BigInt?
 }
+model Wishlist {
+  id        Int      @id @default(autoincrement())
+  email     String @unique
+  items     Json
+  createdAt DateTime @default(now())
+}

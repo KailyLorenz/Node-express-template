@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+name = "boa-home-task-KL"
+client_id = "094d7d70394950cb4f2c1b9d374616eb"
+application_url = "https://ev-arlington-rio-findings.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "read_customers"
+
+[auth]
+redirect_urls = [
+  "https://ev-arlington-rio-findings.trycloudflare.com/auth/callback",
+  "https://ev-arlington-rio-findings.trycloudflare.com/auth/shopify/callback",
+  "https://ev-arlington-rio-findings.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "home-assignment-95.myshopify.com"
+automatically_update_urls_on_dev = true

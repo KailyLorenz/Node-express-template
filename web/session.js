@@ -17,3 +17,4 @@ export async function getOfflineSessionFromStorage(domain) {
 	const sessionId = shopify.api.session.getOfflineId(domain);
 	return shopify.config.sessionStorage.loadSession(sessionId);
 }
+

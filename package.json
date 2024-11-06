@@ -12,8 +12,12 @@
     "deploy": "shopify app deploy"
   },
   "dependencies": {
-    "@shopify/app": "^3.50.0",
-    "@shopify/cli": "^3.50.0"
+    "@prisma/client": "^5.21.1",
+    "@shopify/app": "^3.58.2",
+    "@shopify/cli": "^3.69.3",
+    "@shopify/ui-extensions": "2024.10.0",
+    "@shopify/ui-extensions-react": "^2024.10.0",
+    "react": "^18.3.1"
   },
   "author": "BOA Ideas",
   "devDependencies": {
